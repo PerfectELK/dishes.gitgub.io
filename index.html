@@ -17,8 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	
-	<div class="main"> 
+	<div class="main" id="anchor1"> 
 		<div class="wrapper">
 			<div class="overlay2"></div>
 			<div class="overlay1"></div>
@@ -28,25 +27,25 @@
 			<div class="layer3"></div>
 				<nav class="dws-menu">
 					<ul>
-						<li><a href="#"><span class="font">Home</span></a></li>
-						<li><a href="#"><span class="font">Mittagsmenü</span></a></li>
-						<li><a href="#"><span class="font">Speisekarte</span></a></li>
-						<li><a href="#"><span class="font">Galerie</span></a></li>
-						<li><a href="#"><span class="font">Kontakt</span></a></li>
+						<li><a href="#anchor1"><span class="font">Home</span></a></li>
+						<li><a href="#anchor2"><span class="font">Mittagsmenü</span></a></li>
+						<li><a href="#anchor3"><span class="font">Speisekarte</span></a></li>
+						<li><a href="#anchor4"><span class="font">Galerie</span></a></li>
+						<li><a href="#anchor5"><span class="font">Kontakt</span></a></li>
 					</ul>
 				</nav>
 		</div>
 	</div>
 	<div class="dishes">
 		<div class="banner">
-			<span class="mess">Mittagsmenü</span>
+			<span class="mess" id="anchor2">Mittagsmenü</span>
 			<hr class="top-line">
 			<hr class="bottom-line">
 		</div>
 	<div class="conainer-fluid">
 		<div class="container">
 			<div class="row text-center">
-				<div class="col-6 dish1">
+				<div class="col-6 dish1" id="col-6-1">
 					<div class="dish1-1-1">
 						<img src="img/dish1.jpg">
 					</div>
@@ -63,13 +62,12 @@
 						Schalotte(n)<br>
 						Knoblauch<br>
 					</span></div>
-				<div class="col-6 dish1-price"><img src="img/Dish.jpg">
-					<span>€ 5,70</span>
+				<div class="col-6 dish1-price one" id="col-6-2"><img src="img/dish2.png">
+					
 				</div>
-				<div class="col-6 dish1-price" ><img src="img/Dish.jpg">
-					<span>€ 5,70</span>
+				<div class="col-6 dish1-price" id="col-6-3"><img src="img/dish2.png">
 				</div>
-				<div class="col-6 dish2" >
+				<div class="col-6 dish2" id="col-6-4">
 					<div class="dish2-2-2">
 						<img src="img/dish2.jpg">
 					</div>
@@ -85,7 +83,7 @@
 						Knoblauch<br>
 					</span>
 				</div>
-				<div class="col-6 dish1">
+				<div class="col-6 dish1 dish3" id="col-6-5">
 					<div class="dish3-3-3">
 						<img src="img/dish3.jpg">
 					</div>
@@ -101,26 +99,25 @@
 						Knoblauch<br>
 					</span>
 				</div>
-				<div class="col-6 dish1-price"><img src="img/Dish.jpg">
-					<span>€ 6,70</span>
-				</div>
+				<div class="col-6 dish1-price" id="col-6-6"><img src="img/dish1.png">
+					</div>
 				<div class="col-12">
 					<span class="font-dish-footer">Alle Menüs Täglich erhältlich von Mo-Fr von 11.00-22.00 Uhr<br>
 					außer Feiertags solange der Vorrat reicht.
 					</span>
 				</div>
-				<div class="cool-12 Alionen">
+				<div class="col-12 Alionen">
 					<img src="img/Alionen.png">
 				</div>
-				<div class="col-3 alione-img imgAlione1">
+				<div class="col-3 alione-img imgAlione1" id="col-6-img1">
 					<div class="overlay3"></div>
 					<img src="img/Alionen1.jpg" class="imgAlione1">
 				</div>
-				<div class="col-3 alione-img imgAlione2">
+				<div class="col-3 alione-img imgAlione2" id="col-6-img2">
 					<div class="overlay3"></div>
 					<img src="img/Alionen2.jpg" class="imgAlione2">
 				</div>
-				<div class="col-3 alione-img imgAlione3">
+				<div class="col-3 alione-img imgAlione3" id="col-6-img3">
 					<div class="overlay3"></div>
 					<img src="img/Alionen3.jpg" class="imgAlione3">
 				</div>
@@ -135,32 +132,34 @@
 	</div>
 	<div class="speisekarte">
 		<div class="banner">
-			<span class="mess">Speisekarte</span>
+			<span class="mess" id="anchor3">Speisekarte</span>
 			<hr class="top-line">
 			<hr class="bottom-line">
 		</div>
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-6 Speisekarte1">
+					<div class="col-6 Speisekarte1" id="col-6-7">
 						<img src="img/Speisekarte1.png">
-						<a href="#" class="modalwindow"> <span>Read more...</span></a>
+						<span class="modalwindow" onclick="showModalWin()" id="anchor4">
+							Read more...
+						</span>
 					</div>
-					<div class="col-6 Speisekarte1" >
+					<div class="col-6 Speisekarte1" id="col-6-8">
 						<img src="img/Speisekarte2.png">
 					</div>
-					<div class="col-6 Speisekarte1">
+					<div class="col-6 Speisekarte1" id="col-6-9">
 						<img src="img/Speisekarte3.png">
 					</div>
-					<div class="col-6 Speisekarte1">
+					<div class="col-6 Speisekarte1" id="col-6-10">
 						<img src="img/Speisekarte4.png">
 					</div>
 					<div class="col-12 banner">
-						<span class="mess">Kontakt</span>
+						<span class="mess" id="anchor5">Kontakt</span>
 						<hr class="top-line">
 						<hr class="bottom-line">
 					</div>
-					<div class="col-6 Kontakt form">
+					<div class="col-6 Kontakt form" id="col-6-11">
 						<form method="POST" action="<?php $_SERVER['PHP_SELF']?>">
 							<label for="name">Name</label><br>
 							<input type="text" id="name"><br>
@@ -171,7 +170,7 @@
 							<button class="btn2">Send</button>
 						</form>
 					</div>
-					<div class="col-6 Kontakt google">
+					<div class="col-6 Kontakt google" id="col-6-12">
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.4095337256605!2d16.358939909409013!3d48.2141241376013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07be6e87a683%3A0x967d1263f748a734!2sCaf%C3%A9+Votiv!5e0!3m2!1sru!2sru!4v1517341607984" width="470" max-width="100%" height="239" frameborder="0" style="border:1px solid #f2ab7f" allowfullscreen></iframe>
 					</div>
 				</div>
@@ -190,22 +189,27 @@
 						<span class="footer-span2">and get all the information about new freebies.</span>
 						</div>
 					</div>
-					<div class="col-3 footer-img">
+					<div class="col-3 footer-img" id="col-6-foot1">
 						<img src="img/footer1.png">
 					</div>
-					<div class="col-3 footer-img">
+					<div class="col-3 footer-img" id="col-6-foot2">
 						<img src="img/footer2.png">
 					</div>
-					<div class="col-3 footer-img">
+					<div class="col-3 footer-img" id="col-6-foot3">
 						<img src="img/footer3.png">
 					</div>
-					<div class="col-3 footer-img">
+					<div class="col-3 footer-img" id="col-6-foot4">
 						<img src="img/footer4.png">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div style="text-align: center" id="popupWin" class="modalwin">
+            <form class="modalform">
+                <a href="#" class="modalbutton close" id="button"></a>
+            </form>
+        </div>
 <script src="https://code.jquery.com/jquery-2.2.4.js"
   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   crossorigin="anonymous"></script>

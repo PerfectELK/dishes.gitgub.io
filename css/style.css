@@ -143,11 +143,14 @@ a, a:hover, a:active, a:visited{
   display: inline-block;
   position: relative;
   color: #fff;
+  font-family: "DidotLH";
+  font-style: italic;
   margin: 0 auto;
   width: 1001px;
   height: 101px;
   max-width: 100%;
   background-color: #262628;
+  padding: 0;
 }
 .top-line, .bottom-line{
   background-color:#e0a980;
@@ -196,6 +199,10 @@ a, a:hover, a:active, a:visited{
   z-index: 10;
 }
 .font_dish1 h2{
+  font-family: "DidotLH";
+  font-style: italic;
+}
+.font_dish1 h2{
   text-align: right;
 }
 .dish1-price img{
@@ -225,6 +232,11 @@ a, a:hover, a:active, a:visited{
   left :80px;
   top:60px;
   z-index: 10;
+}
+.font_dish2 h2{
+  font-family: "DidotLH";
+  font-style: italic;
+}
 }
 .cool-12{
   min-width:1001px;
@@ -341,8 +353,6 @@ a, a:hover, a:active, a:visited{
   padding-left:60px;
 }
 .modalwindow span{
-  border-bottom: 1px solid black;
-  opacity: 0.6;
 }
 .Kontakt{
   margin-top: 60px;
@@ -453,4 +463,197 @@ a, a:hover, a:active, a:visited{
   position: relative;
   top: 250px;
   margin-left:
+}
+.modalwin { 
+height: 350px;  
+width: 500px;
+border: 3px outset gray; 
+background: #fff;
+top: 20%; 
+right: 0;
+left: 0;
+font-size: 14px; 
+overflow: hidden !important;
+margin: 0 auto;
+z-index:2; 
+display: none;  
+position: fixed; 
+padding: 15px;
+transition: 1s;
+border: 1px;
+border-radius: 30px;
+}
+
+#shadow { 
+position: fixed;
+width:100%;
+height:100%;
+z-index:1; 
+background:#000;
+opacity: 0.5; 
+left:0;
+top:0;
+overflow: hidden !important;
+transition: 0.4s;
+}
+.close {
+position: absolute;
+right: 32px;
+top: 32px;
+width: 32px;
+height: 32px;
+opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 25px;
+  width: 5px;
+  background-color: red;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+@media all and (max-width: 1150px){
+.dws-menu{
+  overflow: hidden;
+  top: 250px;
+  height: 600px;
+  z-index: 5;
+
+}
+.dws-menu ul{
+  height: 600px;
+}
+.dws-menu li{
+  float:none;
+  background-color: #000;
+}
+.overlay1{
+  display: none !important;
+}
+.dishes{
+  height: 2700px;
+}
+.speisekarte{
+  height: 2700px;
+}
+.Speisekarte1{
+  text-align: center;
+}
+.modalwindow {
+  margin-left: auto;
+  padding-right: 100px;
+  margin-right: auto;
+  width:100%;
+}
+.footer{
+  height: 800px;
+}
+.form form{
+  height:500px;
+}
+.form{
+  height:500px;
+}
+.footer-img{
+  margin-top: 50px;
+}
+.footer-banner{
+  bottom: 180px;
+}
+.foot{
+  width:100%;
+}
+.ovelay-dish{
+  display: none;
+}
+.ovelay-dish1{
+  display: none;
+}
+.dish2-2{
+  position: absolute;
+  left:0;
+  top:0;
+}
+.dish2 img{
+  float: none;
+}
+.dish2{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.font_dish2{
+text-align: right;
+}
+.dish1-price img{
+  padding: 0;
+}
+.dish1-1{
+  width: 100%;
+  position: absolute;
+  left:0;
+  top:0;
+}
+.dish1 img{
+  float: none;
+}
+.dish1{
+  position: relative;
+  text-align: center;
+}
+.dish3-3 img{
+}
+.dish3-3{
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+}
+.dish3-3-3 img{
+  position: relative;
+}
+.font_dish1:hover .dish3-3-3{
+  opacity: 1;
+  transition: 0.5s;
+}
+.alione-img{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.overlay3{
+ width:100%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.layer1{
+  margin-left: 100px;
+  margin-top: 10px;
+  box-shadow:0 0 0 1px #fff, 0 0 0 2px #888;
+}
+.layer2{
+  margin-left: 130px;
+  margin-top: 10px;
+}
+.layer3{
+  margin-left: 160px;
+  margin-top: 10px;
+}
+.one{
+  margin-top:10px;
+  margin-bottom: 60px;
+}
+.Alionen{
+  margin-top:50px;
+}
 }
